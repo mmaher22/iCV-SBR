@@ -47,4 +47,4 @@ parser.add_argument('--neighbors', type=int, default=200, help="K neighbors to b
 
 ## Results
 
-- All the results for SRGNN can be seen from [HERE](https://github.com/mmaher22/iCV-SBR/blob/master/Results/VSKNN.pdf).
+- All the results for VSKNN can be seen from [HERE](https://github.com/mmaher22/iCV-SBR/blob/master/Results/VSKNN.pdf).

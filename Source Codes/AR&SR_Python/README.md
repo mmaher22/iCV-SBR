@@ -1,8 +1,8 @@
 # AR-SR-recommendation
 - Association Rules and Sequential Rules for Session Based Recommendation supporting multi-item features.
 - Python Implementation of the algorithms.
-- Original paper: Association Rules => [Mining Association Rules Between Sets of Items in Large Databases(SIGMOD 1993)](https://rakesh.agrawal-family.com/papers/sigmod93assoc.pdf) and Sequential Rules => [A Comparison of Frequent Pattern Techniques and a Deep Learning Method for Session-Based Recommendation(RecSys 2017)](http://ceur-ws.org/Vol-1922/paper10.pdf)
-- This code is based on [Evaluation of Session-based Recommendation Algorithms](https://arxiv.org/pdf/1803.09587) but adapted to support multi-item features other than ItemID.
+- Original paper: Association Rules => [Mining Association Rules Between Sets of Items in Large Databases(SIGMOD 1993)](https://rakesh.agrawal-family.com/papers/sigmod93assoc.pdf) and Sequential Rules => [A Comparison of Frequent Pattern Techniques and a Deep Learning Method for Session-Based Recommendation(RecSys 2017)](http://ceur-ws.org/Vol-1922/paper10.pdf). Check [THIS](https://arxiv.org/pdf/1803.09587)
+- This code is based on [Evaluation of Session-based Recommendation Algorithms](https://www.dropbox.com/sh/dbzmtq4zhzbj5o9/AACldzQWbw-igKjcPTBI6ZPAa?dl=0) but adapted to support multi-item features other than ItemID and other requirements of our experiments.
 
 ## Requirements
 - Python 3.x

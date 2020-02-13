@@ -1,7 +1,7 @@
 # Comprehensive Benchmarking of Session-based Recommendation Deep-Learning Approaches
 
 <div style="text-align: center">
-<img src="Figures/MLPipe-1.png" width="900px" atl="Machine Learning Pipeline"/>
+<img src="Figures/sessionreco.png" width="900px" atl="Machine Learning Pipeline"/>
 </div>
 In this repository, we present a comprehensive evaluation of the state-of-the-art deep learning approaches used in session-based recommendation. Our experiments compares between baseline techniques like nearest neighbors and pattern mining algorithms, and deep learning approaches including recurrent neural networks, graph neural networks, and attention based networks. It has been shown that advanced neural network models outperformed the baseline techniques in most of the scenarios however they still suffer more in case of cold start problem. This repo contains the implementations of different algorithms used in our experiments, survey of session-based recommendation papers, and a summary of the paper resources, and results.
 

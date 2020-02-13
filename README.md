@@ -64,30 +64,6 @@ Neural Architecture Search (NAS) is a fundamental step in automating the machine
   - 2002 | Evolving neural networks through augmenting topologies. | Stanley and Miikkulainen | Evolutionary Computation | [`PDF`](https://dl.acm.org/citation.cfm?id=638554)
 
   <hr>
-  
-  
-## Hyper-Parameter Optimization
-After choosing the model pipeline algorithm(s) with the highest potential for achieving the top performance on the input dataset, the next step is tuning the hyper-parameters of such model in order to further optimize the model performance. 
-It is worth mentioning that some tools have democratized the space of different learning algorithms in discrete number of model pipelines. So, the model selection itself can be considered as a categorical parameter that needs to be tuned in the first place before modifying its hyper-parameters.
-
-<div style="text-align: center">
-<img src="Figures/HPOptimization-1.png" width="900px" atl="Classification of Hyper-Parameter Optimization Methods"/>
-</div>
-### Multi-Fidelity Optimization
-  - 2019 | Practical Multi-fidelity Bayesian Optimization for Hyperparameter Tuning. | Wu et al. | [`PDF`](https://arxiv.org/pdf/1903.04703.pdf)
-  - 2019 | Multi-Fidelity Automatic Hyper-Parameter Tuning via Transfer Series Expansion. | Hu et al. | [`PDF`](http://lamda.nju.edu.cn/yuy/GetFile.aspx?File=papers/aaai19_huyq.pdf)
-  - 2016 | Review of multi-fidelity models. | Fernandez-Godino | [`PDF`](https://www.arxiv.org/abs/1609.07196v2)
-  - 2012 | Provably convergent multifidelity optimization algorithm not requiring high-fidelity derivatives. | March and Willcox | AIAA | [`PDF`](https://arc.aiaa.org/doi/10.2514/1.J051125)
-  + #### Modeling Learning Curve
-    - 2017 | Learning curve prediction with Bayesian neural networks. | Klein et al. | ICLR | [`PDF`](https://ml.informatik.uni-freiburg.de/papers/17-ICLR-LCNet.pdf)
-	- 2015 | Speeding up automatic hyperparameter optimization of deep neural networks by extrapolation of learning curves. | Domhan et al. | IJCAI | [`PDF`](https://ml.informatik.uni-freiburg.de/papers/15-IJCAI-Extrapolation_of_Learning_Curves.pdf)
-    - 1998 | Efficient global optimization of expensive black-box functions. | Jones et al. | JGO | [`PDF`](http://www.ressources-actuarielles.net/EXT/ISFA/1226.nsf/0/f84f7ac703bf5862c12576d8002f5259/$FILE/Jones98.pdf)
-  + #### Bandit Based
-    - 2018 | Massively parallel hyperparameter tuning. | Li et al. | AISTATS | [`PDF`](https://arxiv.org/pdf/1810.05934.pdf)
-	- 2016 | Non-stochastic Best Arm Identification and Hyperparameter Optimization. | Jamieson and Talwalkar | AISTATS | [`PDF`](https://arxiv.org/abs/1502.07943)
-    - 2016 | Hyperband: A novel bandit-based approach to hyperparameter optimization. | Kirkpatrick et al. | JMLR | [`PDF`](http://www.jmlr.org/papers/volume18/16-558/16-558.pdf) [`Github`](https://github.com/zygmuntz/hyperband) [`Github (Distributed Hyperband - BOHB)`](https://github.com/automl/HpBandSter)
-
-<hr>
 
 ## AutoML Tools and Frameworks
 

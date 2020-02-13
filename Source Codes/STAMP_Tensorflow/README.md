@@ -65,4 +65,4 @@ python cmain.py --data_folder Dataset/ --train_data train.csv --valid_data valid
 
 ## Results
 
-- All the results for AR can be seen from [HERE](https://github.com/mmaher22/iCV-SBR/blob/master/Results/SRGNN.pdf).
+- All the results for STAMP can be seen from [HERE](https://github.com/mmaher22/iCV-SBR/blob/master/Results/SRGNN.pdf).

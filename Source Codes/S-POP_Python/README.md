@@ -1,7 +1,7 @@
 # S-POP-recommendation
 - Session popularity predictor that gives higher scores to items with higher number of occurrences in the session. Ties are broken up by adding the popularity score of the item.
 - Python Implementation of the algorithms.
-- This code is based on [Evaluation of Session-based Recommendation Algorithms](https://arxiv.org/pdf/1803.09587) but adapted to support multi-item features other than ItemID.
+- This code is based on [Evaluation of Session-based Recommendation Algorithms](https://www.dropbox.com/sh/dbzmtq4zhzbj5o9/AACldzQWbw-igKjcPTBI6ZPAa?dl=0), [PAPER](https://arxiv.org/pdf/1803.09587) but adapted to support multi-item features other than ItemID and other requirements of our experiments.
 - The score is given by:
 ```math
 r_{s,i} = supp_{s,i} + \frac{supp_i}{(1+supp_i)}

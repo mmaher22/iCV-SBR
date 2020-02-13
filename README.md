@@ -65,11 +65,11 @@ This repository will be organized into the following sections:
   - 2019 | A Dynamic Co-attention Network for Session-based Recommendation. | (DCN-SR) | CIKM | [`PDF`](https://dl.acm.org/doi/10.1145/3331184.3331210)
   
  + ### Deep Learning in Personalized Session-based Recommendation
-  - 2017 | Personalizing session-based recommendations with hierarchical recurrent neural networks. | (HRNN) | RecSys | [`PDF`](https://arxiv.org/pdf/1706.04148.pdf)
-  - 2017 | Inter-session modeling for session-based recommendation. | (IIRNN) | RecSys | [`PDF`](https://dl.acm.org/doi/10.1145/3125486.3125491)
-  - 2018 | Self-attentive sequential recommendation. | (SASRec) | ICDM | [`PDF`](https://arxiv.org/pdf/1808.09781.pdf)
-  - 2018 | Personalized  top-n  sequential  recommendation  via convolutional  sequence  embedding. | (CASER) | WSDM | [`PDF`](https://dl.acm.org/doi/10.1145/3159652.3159656)
-  - 2019 | Bert4rec: Sequential recommendation with bidirectional encoder representations from trans-former. | (BERT4Rec) | CIKM | [`PDF`](https://arxiv.org/pdf/1904.06690.pdf)
+   - 2017 | Personalizing session-based recommendations with hierarchical recurrent neural networks. | (HRNN) | RecSys | [`PDF`](https://arxiv.org/pdf/1706.04148.pdf)
+   - 2017 | Inter-session modeling for session-based recommendation. | (IIRNN) | RecSys | [`PDF`](https://dl.acm.org/doi/10.1145/3125486.3125491)
+   - 2018 | Self-attentive sequential recommendation. | (SASRec) | ICDM | [`PDF`](https://arxiv.org/pdf/1808.09781.pdf)
+   - 2018 | Personalized  top-n  sequential  recommendation  via convolutional  sequence  embedding. | (CASER) | WSDM | [`PDF`](https://dl.acm.org/doi/10.1145/3159652.3159656)
+   - 2019 | Bert4rec: Sequential recommendation with bidirectional encoder representations from trans-former. | (BERT4Rec) | CIKM | [`PDF`](https://arxiv.org/pdf/1904.06690.pdf)
   <hr>
 
 ## Survey of Deep-Learning Approaches in session-based recommendation

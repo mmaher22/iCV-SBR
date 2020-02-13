@@ -2,7 +2,7 @@
 - Session-based Matrix Factorization for Session Based Recommendation.
 - Python Implementation of the algorithms.
 - Original paper: SMF can be found => [Evaluation of Session-based Recommendation Algorithms](https://arxiv.org/pdf/1803.09587.pdf)
-- This code is based on [Evaluation of Session-based Recommendation Algorithms](https://arxiv.org/pdf/1803.09587).
+- This code is based on [Evaluation of Session-based Recommendation Algorithms](https://www.dropbox.com/sh/dbzmtq4zhzbj5o9/AACldzQWbw-igKjcPTBI6ZPAa?dl=0) but adapted to our experiments.
 
 ## Requirements
 - Python 3.x

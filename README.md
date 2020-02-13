@@ -43,7 +43,9 @@ This repository will be organized into the following sections:
   
 + ### Baselines
   - 1993 | Mining association rules betweensets of items in large database | SIGMOD | [`PDF`](https://rakesh.agrawal-family.com/papers/sigmod93assoc.pdf)
-  - 2013 | Fism: factored item similarity modelsfor top-n recommender systems. | SIGKDD | [`PDF`](http://glaros.dtc.umn.edu/gkhome/fetch/papers/fismkdd13.pdf)
+  - 2009 | BPR: Bayesian Personalized Ranking from Implicit Feedback. | UAI | [`PDF`](https://arxiv.org/abs/1205.2618)
+  - 2010 | Factorizing Personalized Markov Chains for Next-basket Recommendation. | WWW | [`PDF`](https://www.ismll.uni-hildesheim.de/pub/pdfs/RendleFreudenthaler2010-FPMC.pdf)
+  - 2013 | FISM: factored item similarity models for top-n recommender systems. | SIGKDD | [`PDF`](http://glaros.dtc.umn.edu/gkhome/fetch/papers/fismkdd13.pdf)
   - 2015 | Adapting recommen-dations to contextual changes using hierarchical hidden markov models. | RecSys | [`PDF`](https://dl.acm.org/citation.cfm?id=2799684)
   - 2016 | Fusing  similarity  models  with  markov  chains  forsparse sequential recommendation. | ICDM | [`PDF`](https://arxiv.org/abs/1609.09152)
   - 2016 | Item2vec: Neural item embedding for collaborative filtering.| ArXiv | [`PDF`](http://arxiv.org/abs/1603.04259)
@@ -66,8 +68,8 @@ This repository will be organized into the following sections:
   - 2017 | Personalizing session-based recommendations with hierarchical recurrent neural networks. | (HRNN) | RecSys | [`PDF`](https://arxiv.org/pdf/1706.04148.pdf)
   - 2017 | Inter-session modeling for session-based recommendation. | (IIRNN) | RecSys | [`PDF`](https://dl.acm.org/doi/10.1145/3125486.3125491)
   - 2018 | Self-attentive sequential recommendation. | (SASRec) | ICDM | [`PDF`](https://arxiv.org/pdf/1808.09781.pdf)
-  - 2018 | Personalized  top-n  sequential  recommendation  viaconvolutional  sequence  embedding. | (CASER) | WSDM | [`PDF`](https://dl.acm.org/doi/10.1145/3159652.3159656)
-  - 2019 | Bert4rec: Sequen-tial recommendation with bidirectional encoder representations from trans-former. | (BERT4Rec) | CIKM | [`PDF`](https://arxiv.org/pdf/1904.06690.pdf)
+  - 2018 | Personalized  top-n  sequential  recommendation  via convolutional  sequence  embedding. | (CASER) | WSDM | [`PDF`](https://dl.acm.org/doi/10.1145/3159652.3159656)
+  - 2019 | Bert4rec: Sequential recommendation with bidirectional encoder representations from trans-former. | (BERT4Rec) | CIKM | [`PDF`](https://arxiv.org/pdf/1904.06690.pdf)
   <hr>
 
 ## Survey of Deep-Learning Approaches in session-based recommendation

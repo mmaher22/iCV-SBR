@@ -56,4 +56,4 @@ python smf_main.py --data_folder Dataset/ --train_data train.csv --valid_data va
 
 ## Results
 
-- All the results for AR can be seen from [HERE](https://github.com/mmaher22/iCV-SBR/blob/master/Results/SMF.pdf).
+- All the results for SMF can be seen from [HERE](https://github.com/mmaher22/iCV-SBR/blob/master/Results/SMF.pdf).

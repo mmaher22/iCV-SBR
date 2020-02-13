@@ -13,22 +13,12 @@
 ## Usage
 
 ### Dataset
-RecSys Challenge 2015 Dataset can be retreived from [HERE](https://2015.recsyschallenge.com/).
-Diginetica retreived from [HERE](http://cikm2016.cs.iupui.edu/cikm-cup).
-
-### Pre processing data
-
-The format of data is similar to that obtained from RecSys Challenge 2015:
-- Filenames
-    - Training set by default is named as `recSys15TrainOnly.txt`
-    - Test set by default is named as `recSys15Valid.txt`
-- Contents
-    - `recSys15TrainOnly.txt`, `recSys15Valid.txt` should be the csv files that stores the pandas dataframes that satisfy the following requirements:
+- requirements:
         - A column in the file should be the integer Session IDs with header name SessionID
         - Several columns of the file should be the item features and must include Item IDs
         - The 3rd column of the file should be the Timestamps with header name Time
         
-### Training and Testing
+### Contents
 The project have a structure as below:
 
 ```bash
@@ -65,9 +55,4 @@ python main.py --data_folder Dataset/ --train_data train.csv --valid_data valid.
 
 ## Results
 
-- Different different parameters have been tried out on samples from RecSys15 Challenge/Diginetica Datasets.
-- Best results were 92.70%,	53.37% for Recall@20 and MRR@20 respectively on 1/4 sample of RecSys15 Dataset and subsequent 1 day for testing.
-- Best results were 88.41%, 52.92% for Recall@20 and MRR@20 respectively on 1/64 sample of RecSys15 Dataset and subsequent 1 day for testing.
-- Best results were 55.11%,	33.80% for Recall@20 and MRR@20 respectively on 1/4 sample of Diginetica Dataset using price and category features and subsequent 1 day for testing.
-- Best results were 57.33%, 34.62% for Recall@20 and MRR@20 respectively on 1/4 sample of Diginetica Dataset without item features and subsequent 1 day for testing.
-- All the results can be seen from [HERE](https://docs.google.com/spreadsheets/d/19z6zFEY6pC0msi3wOQLk_kJsvqF8xnGOJPUGhQ36-wI/edit#gid=0).
+- All the results for AR can be seen from [HERE](https://github.com/mmaher22/iCV-SBR/blob/master/Results/SRGNN.pdf).

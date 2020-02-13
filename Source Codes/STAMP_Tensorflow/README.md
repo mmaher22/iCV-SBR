@@ -13,21 +13,12 @@
 ## Usage
 
 ### Dataset
-RecSys Challenge 2015 Dataset can be retreived from [HERE](https://2015.recsyschallenge.com/)
-
-### Pre processing data
-- The training set is divided into training and testing where the testing split is the last day sessions.
-
-The format of data is similar to that obtained from RecSys Challenge 2015:
-- Filenames
-    - Training set should be named as `recSys15TrainOnly.txt`
-    - Test set should be named as `recSys15Valid.txt`
-- Contents
-    - `recSys15TrainOnly.txt`, `recSys15Valid.txt` should be the csv files that stores the pandas dataframes that satisfy the following requirements:
+- requirements:
         - A column in the file should be the integer Session IDs with header name SessionID
         - Several columns of the file should be the item features and must include Item IDs
+        - The 3rd column of the file should be the Timestamps with header name Time
         
-### Training and Testing
+### Contents
 The project have a structure as below:
 
 ```bash
@@ -74,5 +65,4 @@ python cmain.py --data_folder Dataset/ --train_data train.csv --valid_data valid
 
 ## Results
 
-- Different different parameters have been tried out using smf on a sample of RecSys15 Challenge Dataset.
-- All the results can be seen from [HERE](https://docs.google.com/spreadsheets/d/19z6zFEY6pC0msi3wOQLk_kJsvqF8xnGOJPUGhQ36-wI/edit#gid=0).
+- All the results for AR can be seen from [HERE](https://github.com/mmaher22/iCV-SBR/blob/master/Results/SRGNN.pdf).

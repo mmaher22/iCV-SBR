@@ -18,49 +18,78 @@ In this repository, we present a comprehensive evaluation of the state-of-the-ar
 <hr>
 
 ## Table of Contents & Organization:
-This repository will be organized into 6 separate sections:
-+ [Meta-Learning Techniques for AutoML search problem](#meta-learning-techniques-for-automl-search-problem)
-  - [Learning From Model Evaluation](#learning-from-model-evaluation)
-    - [Surrogate Models](#surrogate-models)
-    - [Warm-Started Multi-task Learning](#warm-started-multi-task-learning)
-    - [Relative Landmarks](#relative-landmarks)
-  - [Learning From Task Properties](#learning-from-task-properties)
-    - [Using Meta-Features](#using-meta-features)
-    - [Using Meta-Models](#using-meta-models)
-  - [Learning From Prior Models](#learning-from-prior-models)
-    - [Transfer Learning](#transfer-learning)
-    - [Few-Shot Learning](#few-shot-learning)
+This repository will be organized into the following sections:
++ [List of Papers](#list-of-papers)
+  - [Surveys and Benchmarks](#surveys-and-benchmarks)
+  - [Baseline Methods](#baselines)
+  - [Deep Learning in Generalized Session-based Recommendation](#deep-learning-in-generalized-session-based-recommendation)
+  - [Deep Learning in Personalized Session-based Recommendation](#deep-learning-in-personalized-session-based-recommendation)
++ [Survey of Deep-Learning Approaches in session-based recommendation](#survey-of-deep-learning-approaches-in-session-based-recommendation)
++ [E-Commerce Session-based Recommendation Datasets](#e-commerce-session-based-recommendation-datasets)
++ [Citation](#citation)
 
 <hr>
 
 ## List of Papers
 
 + ### Surveys and Benchmarks
-  - 2018 | Progressive neural architecture search.  | Liu et al. | ECCV | [`PDF`](https://arxiv.org/abs/1712.00559)
-  - 2018 | Efficient architecture search by network transformation. | Cai et al. | AAAI | [`PDF`](https://arxiv.org/abs/1707.04873)
-  - 2018 | Learning transferable architectures for scalable image recognition. | Zoph et al. | IEEE CVPR | [`PDF`](https://arxiv.org/abs/1707.07012)
-  - 2017 | Hierarchical representations for efficient architecture search. | Liu et al. | [`PDF`](https://arxiv.org/abs/1711.00436)
-  - 2016 | Neural architecture search with reinforcement learning.  | Zoph and Le | [`PDF`](https://arxiv.org/abs/1611.01578)
-  - 2009 | Learning deep architectures for AI. | Bengio et al. | [`PDF`](https://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf)
+  - 2005 | Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions. | IEEE Transactions | [`PDF`](http://pages.stern.nyu.edu/~atuzhili/pdf/TKDE-Paper-as-Printed.pdf)
+  - 2017 | A Comparison of Frequent Pattern Techniques and a Deep Learning Method for Session-Based Recommendation. | RecSys | [`PDF`](http://ceur-ws.org/Vol-1922/paper10.pdf)
+  - 2018 | Sequence-aware recommendersystems  | ACM CSUR | [`PDF`](https://arxiv.org/pdf/1802.08452.pdf)
+  - 2018 | Evaluation of session-based recommendation algorithms. | Journal of User Modeling and User-Adapted Interaction. | [`PDF`](https://arxiv.org/pdf/1803.09587.pdf)
+  - 2019 | A Survey on Session-based Recommender Systems. | ArXiv | [`PDF`](https://arxiv.org/abs/1902.04864)
+  - 2019 | Sequential Recommender Systems: Challenges, Progress and Prospects. | ArXiv | [`PDF`](https://arxiv.org/ftp/arxiv/papers/2001/2001.04830.pdf)
+  - 2020 | Empirical Analysis of Session-Based Recommendation Algorithms | ArXiv |  [`PDF`](https://arxiv.org/pdf/1910.12781.pdf)
   
 + ### Baselines
-  - 2019 | Random Search and Reproducibility for Neural Architecture Search. | Li and Talwalkar | [`PDF`](https://arxiv.org/abs/1902.07638)
-  - 2017 | Train Longer, Generalize Better: Closing the Generalization Gap in Large Batch Training of Neural Networks. | Hoffer et al.  | NIPS | [`PDF`](https://arxiv.org/abs/1705.08741)
+  - 1993 | Mining association rules betweensets of items in large database | SIGMOD | [`PDF`](https://rakesh.agrawal-family.com/papers/sigmod93assoc.pdf)
+  - 2013 | Fism: factored item similarity modelsfor top-n recommender systems. | SIGKDD | [`PDF`](http://glaros.dtc.umn.edu/gkhome/fetch/papers/fismkdd13.pdf)
+  - 2015 | Adapting recommen-dations to contextual changes using hierarchical hidden markov models. | RecSys | [`PDF`](https://dl.acm.org/citation.cfm?id=2799684)
+  - 2016 | Fusing  similarity  models  with  markov  chains  forsparse sequential recommendation. | ICDM | [`PDF`](https://arxiv.org/abs/1609.09152)
+  - 2016 | Item2vec: Neural item embedding for collaborative filtering.| ArXiv | [`PDF`](http://arxiv.org/abs/1603.04259)
+  - 2018 | Evaluation of session-based recommendation algorithms. | Journal of User Modeling and User-Adapted Interaction. | [`PDF`](https://arxiv.org/pdf/1803.09587.pdf)
   
 + ### Deep Learning in Generalized Session-based Recommendation
-  - 2017 | 3d convolutional networks for session-based recommendation with content features. | RecSys | [`PDF`](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/p138-tuan.pdf)
-  - 2019 | Simple convolutional generative network for next item recommendation. | WSDM | [`PDF`](https://arxiv.org/pdf/1808.05163.pdf)
-  - 2019 | Session-based recommen-dation with graph neural networks. | AAAI | [`PDF`](https://arxiv.org/abs/1811.00855)
-  - 2019 | A collaborativesession-based recommendation approach with parallel memory modules. | SIGIR | [`PDF`](https://dl.acm.org/doi/10.1145/3331184.3331210)
+  - 2015 | Session-based recom-mendations with recurrent neural networks. | (GRU4Rec) | ArXiv | [`PDF`](https://arxiv.org/abs/1511.06939)
+  - 2016 | Parallel Recurrent Neural Network Architectures for Feature-rich Session-based Recommendations. | (P-GRU4Rec) | RecSys | [`PDF`](https://dl.acm.org/doi/10.1145/2959100.2959167)
+  - 2017 | 3d convolutional networks for session-based recommendation with content features. | (3D-CNN) | RecSys | [`PDF`](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/p138-tuan.pdf)
+  - 2017 | Neural attentive session-based recommendation. | (NARM) | CIKM | [`PDF`](https://arxiv.org/pdf/1711.04725.pdf)
+  - 2018 |  Recurrent neural networks with top-k gains for session-based recommendation. | (GRU4Rec+) | CIKM | [`PDF`](https://arxiv.org/abs/1706.03847)
+  - 2018 | STAMP: Short-Term Attention/Memory Priority Model for Session-based Recommendation. | (STAMP) | KDD | [`PDF`](https://www.kdd.org/kdd2018/accepted-papers/view/stamp-short-term-attentionmemory-priority-model-for-session-based-recommend)
+  - 2019 | Simple convolutional generative network for next item recommendation. | (NextItNet) | WSDM | [`PDF`](https://arxiv.org/pdf/1808.05163.pdf)
+  - 2019 | Session-based recommen-dation with graph neural networks. | (SRGNN) | AAAI | [`PDF`](https://arxiv.org/abs/1811.00855)
+  - 2019 | A collaborativesession-based recommendation approach with parallel memory modules. | (CSRM) | SIGIR | [`PDF`](https://dl.acm.org/doi/10.1145/3331184.3331210)
+  - 2019 | A Repeat Aware Neural Recommendation Machine for Session-based Recommendation. | (RepeatNet) | AAAI | [`PDF`](https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/ren-repeatnet-2019.pdf)
+  - 2019 | A Dynamic Co-attention Network for Session-based Recommendation. | (DCN-SR) | CIKM | [`PDF`](https://dl.acm.org/doi/10.1145/3331184.3331210)
   
-+ ### Deep Learning in Personalized Session-based Recommendation
-  - 2019 | Neural architecture search with reinforcement learning. | Zoph and Le | [`PDF`](https://arxiv.org/abs/1611.01578)
-  - 2019 | Designing neural network architectures using reinforcement learning. | Baker et al. | [`PDF`](https://arxiv.org/abs/1611.02167)
+ + ### Deep Learning in Personalized Session-based Recommendation
+  - 2017 | Personalizing session-based recommendations with hierarchical recurrent neural networks. | (HRNN) | RecSys | [`PDF`](https://arxiv.org/pdf/1706.04148.pdf)
+  - 2017 | Inter-session modeling for session-based recommendation. | (IIRNN) | RecSys | [`PDF`](https://dl.acm.org/doi/10.1145/3125486.3125491)
+  - 2018 | Self-attentive sequential recommendation. | (SASRec) | ICDM | [`PDF`](https://arxiv.org/pdf/1808.09781.pdf)
+  - 2018 | Personalized  top-n  sequential  recommendation  viaconvolutional  sequence  embedding. | (CASER) | WSDM | [`PDF`](https://dl.acm.org/doi/10.1145/3159652.3159656)
+  - 2019 | Bert4rec: Sequen-tial recommendation with bidirectional encoder representations from trans-former. | (BERT4Rec) | CIKM | [`PDF`](https://arxiv.org/pdf/1904.06690.pdf)
   <hr>
 
 ## Survey of Deep-Learning Approaches in session-based recommendation
   
- 
+ | Model Name | Date |      Framework     | Personalized Recommendation |                         Open Source                         |                                           Our Code                                           |
+|:----------:|:----:|:------------------:|:---------------------------:|:-----------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
+|   GRU4Rec  | 2015 |       Theano       |              ×              |        [`Github`](https://github.com/hidasib/GRU4Rec)       |                                               -                                              |
+|  P-GRU4Rec | 2016 |          -         |              ×              |                              ×                              |                                               -                                              |
+|   3D-CNN   | 2017 |          -         |              ×              |                              ×                              |                                               -                                              |
+|    NARM    | 2017 |       Theano       |              ×              |   [`Github`](https://github.com/lijingsdu/sessionRec_NARM)  |      [`URL`](https://github.com/mmaher22/iCV-SBR/tree/master/Source%20Codes/NARM_Theano)     |
+|    IIRNN   | 2017 |     Tensorflow     |              √              |           https://github.com/olesls/master_thesis           |                                               -                                              |
+|    HRNN    | 2017 |       Theano       |              √              |              https://github.com/mquad/hgru4rec              |                                               -                                              |
+|  GRU4Rec+  | 2018 |       Theano       |              ×              |        [`Github`](https://github.com/hidasib/GRU4Rec)       |   [`URL`](https://github.com/mmaher22/iCV-SBR/tree/master/Source%20Codes/GRU4Rec%2B_Theano)  |
+|    STAMP   | 2018 |     Tensorflow     |              ×              |        [`Github`](https://github.com/uestcnlp/STAMP)        |   [`URL`](https://github.com/mmaher22/iCV-SBR/tree/master/Source%20Codes/STAMP_Tensorflow)   |
+|   SASRec   | 2018 |     Tensorflow     |              √              |        [`Github`](https://github.com/kang205/SASRec)        |                                               -                                              |
+|    CASER   | 2018 |       Pytorch      |              √              |    [`Github`](https://github.com/graytowne/caser_pytorch)   |                                               -                                              |
+|  NextItNet | 2019 |     Tensorflow     |              ×              |      [`Github`](https://github.com/fajieyuan/nextitnet)     | [`URL`](https://github.com/mmaher22/iCV-SBR/tree/master/Source%20Codes/NextitNet_Tensorflow) |
+|    SRGNN   | 2019 | Tensorflow Pytorch |              ×              |      [`Github`](https://github.com/CRIPAC-DIG/SR-GNN)       |     [`URL`](https://github.com/mmaher22/iCV-SBR/tree/master/Source%20Codes/SRGNN_Pytorch)    |
+|    CSRM    | 2019 |     Tensorflow     |              ×              |    [`Github`](https://github.com/wmeirui/CSRM_SIGIR2019)    |    [`URL`](https://github.com/mmaher22/iCV-SBR/tree/master/Source%20Codes/CSRM_Tensorflow)   |
+|  BERT4Rec  | 2019 |     Tensorflow     |              √              |        [`Github`](https://github.com/FeiSun/BERT4Rec)       |                                               -                                              |
+|   DCN-SR   | 2019 |          -         |              ×              |                              ×                              |                                               -                                              |
+|  RepeatNet | 2019 |   Chainer Pytorch  |              ×              | [`Github`](https://github.com/PengjieRen/RepeatNet-pytorch) |                                               -                                              |
 <hr>
 
 

@@ -1,4 +1,4 @@
-# Comprehensive Benchmarking of Session-based Recommendation Deep-Learning Approaches
+# Comprehensive Benchmarking of Session-based Recommendation using Deep-Learning Approaches
 
 <div style="text-align: center">
 <img src="Figures/sessionreco.png" width="900px" atl="Machine Learning Pipeline"/>
@@ -33,59 +33,43 @@ This repository will be organized into 6 separate sections:
 
 <hr>
 
-## Neural Architecture Search Problem
-Neural Architecture Search (NAS) is a fundamental step in automating the machine learning process and has been successfully used to design the model architecture for image and language tasks.
+## List of Papers
+
++ ### Surveys and Benchmarks
   - 2018 | Progressive neural architecture search.  | Liu et al. | ECCV | [`PDF`](https://arxiv.org/abs/1712.00559)
   - 2018 | Efficient architecture search by network transformation. | Cai et al. | AAAI | [`PDF`](https://arxiv.org/abs/1707.04873)
   - 2018 | Learning transferable architectures for scalable image recognition. | Zoph et al. | IEEE CVPR | [`PDF`](https://arxiv.org/abs/1707.07012)
   - 2017 | Hierarchical representations for efficient architecture search. | Liu et al. | [`PDF`](https://arxiv.org/abs/1711.00436)
   - 2016 | Neural architecture search with reinforcement learning.  | Zoph and Le | [`PDF`](https://arxiv.org/abs/1611.01578)
   - 2009 | Learning deep architectures for AI. | Bengio et al. | [`PDF`](https://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf)
-
-<div style="text-align: center">
-<img src="Figures/NAS-1.png" width="700px" atl="Neural Architecture Search Methods"/>
-</div>
-
-+ ### Random Search
+  
++ ### Baselines
   - 2019 | Random Search and Reproducibility for Neural Architecture Search. | Li and Talwalkar | [`PDF`](https://arxiv.org/abs/1902.07638)
   - 2017 | Train Longer, Generalize Better: Closing the Generalization Gap in Large Batch Training of Neural Networks. | Hoffer et al.  | NIPS | [`PDF`](https://arxiv.org/abs/1705.08741)
-+ ### Reinforcement Learning
+  
++ ### Deep Learning in Generalized Session-based Recommendation
+  - 2017 | 3d convolutional networks for session-based recommendation with content features. | RecSys | [`PDF`](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/p138-tuan.pdf)
+  - 2019 | Simple convolutional generative network for next item recommendation. | WSDM | [`PDF`](https://arxiv.org/pdf/1808.05163.pdf)
+  - 2019 | Session-based recommen-dation with graph neural networks. | AAAI | [`PDF`](https://arxiv.org/abs/1811.00855)
+  - 2019 | A collaborativesession-based recommendation approach with parallel memory modules. | SIGIR | [`PDF`](https://dl.acm.org/doi/10.1145/3331184.3331210)
+  
++ ### Deep Learning in Personalized Session-based Recommendation
   - 2019 | Neural architecture search with reinforcement learning. | Zoph and Le | [`PDF`](https://arxiv.org/abs/1611.01578)
   - 2019 | Designing neural network architectures using reinforcement learning. | Baker et al. | [`PDF`](https://arxiv.org/abs/1611.02167)
-+ ### Evolutionary Methods
-  - 2019 | Evolutionary Neural AutoML for Deep Learning. | Liang et al. | [`PDF`](https://arxiv.org/abs/1902.06827)
-  - 2019 | Evolving deep neural networks. | Miikkulainen et al. | [`PDF`](https://arxiv.org/abs/1703.00548)
-  - 2018 | a multi-objective genetic algorithm for neural architecture search. | Lu et al. | [`PDF`](https://arxiv.org/abs/1810.03522)
-  - 2018 | Efficient multi-objective neural architecture search via lamarckian evolution. | Elsken et al. | [`PDF`](https://arxiv.org/abs/1804.09081)
-  - 2018 | Regularized evolution for image classifier architecture search. | Real et al. | [`PDF`](https://arxiv.org/abs/1802.01548)
-  - 2017 | Large-scale evolution of image classifiers | Real et al. | ICML | [`PDF`](https://arxiv.org/abs/1703.01041)
-  - 2017 | Hierarchical representations for efficient architecture search. | Liu et al. | [`PDF`](https://arxiv.org/abs/1711.00436)
-  - 2009 | A hypercube-based encoding for evolving large-scale neural networks. | Stanley et al. | Artificial Life | [`PDF`](http://axon.cs.byu.edu/~dan/778/papers/NeuroEvolution/stanley3**.pdf)
-  - 2002 | Evolving neural networks through augmenting topologies. | Stanley and Miikkulainen | Evolutionary Computation | [`PDF`](https://dl.acm.org/citation.cfm?id=638554)
-
   <hr>
 
-## AutoML Tools and Frameworks
-
-  + ### Distributed Frameworks
+## Survey of Deep-Learning Approaches in session-based recommendation
   
-  |               | Date | Language |    Training Framework   |                  Optimization Method                  | Meta-Learning | UI |                                          Open Source                                          |                               PDF                              |
-|:-------------:|:----:|:--------:|:-----------------------:|:-----------------------------------------------------:|:-------------:|:--:|:---------------------------------------------------------------------------------------------:|:--------------------------------------------------------------:|
-|     MLBase    | 2013 |   Scala  |          SparkMlib         |             Cost-based Multi-Armed Bandits            |       ×       |  × |                             × [`Website`](http://www.mlbase.org/)                             | [`PDF`](http://cidrdb.org/cidr2013/Papers/CIDR13_Paper118.pdf) |
-|      ATM      | 2017 |  Python  |         Scikit-Learn       | Hybrid Bayesian, and Multi-armed bandits Optimization |       √       |  × |                         [`Github`](https://github.com/HDI-Project/ATM)                        |            [`PDF`](https://cyphe.rs/static/atm.pdf)            |
-|     MLBox     | 2017 |  Python  |      Scikit-Learn Keras    | Distributed Random search, and Tree-Parzen estimators |       ×       |  × |                       [`Github`](https://github.com/AxeldeRomblay/MLBox)                      |                                ×                               |
-|     Rafiki    | 2018 |  Python  |   Scikit-Learn TensorFlow  |    Distributed random search, Bayesian Optimization   |       ×       |  √ |                          [`Github`](https://github.com/nginyc/rafiki)                         |     [`PDF`](http://www.vldb.org/pvldb/vol12/p128-wang.pdf)     |
-| TransmogrifAI | 2018 |   Scala  |           SparkML          |        Bayesian Optimization, and Random Search       |       ×       |  × | [`Github`](https://github.com/salesforce/TransmogrifAI)  [`Website`](https://transmogrif.ai/) |                                ×                               |
-|    ATMSeer    | 2019 |  Python  | Scikit-Learn On Top Of ATM | Hybrid Bayesian, and Multi-armed bandits Optimization |       √       |  √ |                         [`Github`](https://github.com/HDI-Project/ATMSeer)                    |            [`PDF`](https://arxiv.org/abs/1902.05009)           |
-|    D-SmartML  | 2019 |  Scala   | SparkMlib                  | Grid Search, Random Search, Hyperband                 |       √       |  x |                         [`Github`](https://github.com/DataSystemsGroupUT/Distributed-SmartML) |            x                                                   |
-|   Databricks  | 2019 |  Python  | SparkMlib                  | Hyperopt                                              |       x       |  √ |                         × [`Website`](https://databricks.com/product/automl-on-databricks#resource-link) |            x                                                   |
+ 
 <hr>
 
 
-### Session-based Recommendation Datasets
-  - 2019 | Third AutoML Challenge | [`URL`](https://competitions.codalab.org/competitions/19836)
-  - 2018 | Second AutoML Challenge | [`URL`](https://competitions.codalab.org/competitions/17767)
-  - 2017 | First AutoML Challenge | [`URL`](https://competitions.codalab.org/competitions/2321)
+### E-Commerce Session-based Recommendation Datasets
+  - 2015 | YOOCHOOSE - RecSys Challenge | [`URL`](http://2015.recsyschallenge.com/)
+  - 2015 | Zalando Fashion Recommendation | [`NA`](https://zalando.com/)
+  - 2016 | Diginetica - CIKM Cup | [`URL`](https://cikm2016.cs.iupui.edu/cikm-cup/)
+  - 2016 | TMall (Taobao) - IJCAI16 Contest | [`URL`](https://tianchi.aliyun.com/dataset/dataDetail?dataId=53)
+  - 2017 | Retail Rocket | [`URL`](https://www.kaggle.com/retailrocket/ecommerce-dataset)
 
 <hr>
 

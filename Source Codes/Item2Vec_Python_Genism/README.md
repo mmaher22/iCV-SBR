@@ -1,6 +1,6 @@
 # (Item2vec) Recommendation-based-on-sequence.
  
-Summary of the architecture and description of the algorithm can be found [HERE](https://docs.google.com/document/d/1YAiFAsXw-uLovMu9-k89shCo-SYkOUXTGfJ4vJ-zNOM)
+Item2Vec uses the skip-gram with negative sampling neural word embedding to find out vector representations for different items that infers the relation between an item to its surrounding items in a session. During the prediction phase, candidate items get scores according to the similarity distance between their embedding vectors, and the average of session items embedding vectors. Source [Repo](https://github.com/Bekyilma/Recommendation-based-on-sequence-)
 
 # Quick install
 
@@ -17,9 +17,9 @@ SciPy >= 0.7. <br>
 ## Usage
 
 ### Dataset
-- RecSys Challenge 2015 Dataset can be retreived from [HERE](https://2015.recsyschallenge.com/)
-- Train Split is the whole Traning set except for the last day which is used in the validation process.
-- Data needs to be preprocessed such that each line contains a session with the clicked items IDs separated by commas.
+- Contents
+        - A column in the file should be the integer Session IDs with header name SessionID
+        - A column in the file should be the integer Item IDs with header name ItemID
 
 ### List of Arguments accepted
 
@@ -39,4 +39,4 @@ SciPy >= 0.7. <br>
 ```--data_folder, default='', type=str``` #directory to the main data folder 
 
 ## Results
-Different loss functions and different parameters have been tried out and the results can be seen from [HERE](https://docs.google.com/spreadsheets/d/19z6zFEY6pC0msi3wOQLk_kJsvqF8xnGOJPUGhQ36-wI/edit#gid=0)
+- All the results for item2vec can be seen from [HERE](https://github.com/mmaher22/iCV-SBR/blob/master/Results/Item2Vec.pdf).

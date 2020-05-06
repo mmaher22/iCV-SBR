@@ -117,5 +117,5 @@ To contribute a change to add more references to our repository, you can follow 
 ## Citation:
  For more details, please refer to our benhcmarking Paper [`PDF`](#)
  ```
-authors., Comprehensive Evaluation of Deep Learning Approaches for Session-based Recommendation in E-Commerce (2020).
+Maher M. et al., Comprehensive Empirical Evaluation of Deep Learning Approaches forSession-based Recommendation in E-Commerce (2020).
 ```

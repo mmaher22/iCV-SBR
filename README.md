@@ -117,5 +117,12 @@ To contribute a change to add more references to our repository, you can follow 
 ## Citation:
  For more details, please refer to our benhcmarking Paper [`PDF`](#)
  ```
-Maher M. et al., Comprehensive Empirical Evaluation of Deep Learning Approaches forSession-based Recommendation in E-Commerce (2020).
+@misc{maher2020comprehensive,
+      title={Comprehensive Empirical Evaluation of Deep Learning Approaches for Session-based Recommendation in E-Commerce}, 
+      author={Mohamed Maher and Perseverance Munga Ngoy and Aleksandrs Rebriks and Cagri Ozcinar and Josue Cuevas and Rajasekhar Sanagavarapu and Gholamreza Anbarjafari},
+      year={2020},
+      eprint={2010.12540},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR}
+}
 ```
